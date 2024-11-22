@@ -25,7 +25,7 @@ def draw_letter(letter, x, y):
     drawer.penup()
     drawer.goto(x, y)
     drawer.color("white")
-    drawer.write(letter, font=("Arial", 74, "bold"))
+    drawer.write(letter, font=("Arial", 18, "bold"))
 
 #create and place apple turtles
 def draw_apple():
